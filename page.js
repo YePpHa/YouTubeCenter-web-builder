@@ -36,7 +36,7 @@ module.exports = function(grunt, config, page) {
     return html;
   }
   
-  var page_module = require("./pages/" + page + ".js");
+  var page_module = require(config.dir.pages + page + ".js");
   var template_module = require("./template.js");
   
   return {
