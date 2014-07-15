@@ -1,0 +1,22 @@
+{
+  "language": "en-US",
+  "dir": {
+    "fragments": "./fragments/",
+    "templates": "./templates/",
+    "languages": "./languages/",
+    "pages": "./pages/",
+    "build": "./build/",
+    "resources": "./resources/"
+  },
+  "pages": {
+    "index": {
+      "title": "page-index",
+      "navigation": false
+    },
+    "getting-started": {
+      "title": "page-getting-started",
+      "navigation": true
+    }
+  },
+  "languages": [ "en-US", "da-DK" ]
+}
