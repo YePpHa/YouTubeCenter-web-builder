@@ -1,12 +1,12 @@
 {
   "language": "en-US",
   "dir": {
-    "fragments": "./fragments/",
-    "templates": "./templates/",
+    "fragments": "./src/fragments/",
+    "templates": "./src/templates/",
     "languages": "./languages/",
-    "pages": "./pages/",
+    "pages": "./src/pages/",
     "build": "./build/",
-    "resources": "./resources/"
+    "resources": "./src/resources/"
   },
   "pages": {
     "index": {
