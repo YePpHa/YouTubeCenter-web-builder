@@ -11,7 +11,7 @@ module.exports = function(grunt, config) {
       if (config.language === key) {
         obj.url = "/" + runtime.getActivePage() + ".html";
       } else {
-        obj.url = "/languages/" + key + "/" + runtime.getActivePage() + ".html";
+        obj.url = "/" + config["languages-path"] + key + "/" + runtime.getActivePage() + ".html";
       }
       html += runtime.replace((key === language.getLanguageCode() ? itemActive : item), obj);
     }

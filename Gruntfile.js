@@ -25,7 +25,7 @@ module.exports = function(grunt) {
       var prefix = "";
       
       if (config.language !== lang) {
-        prefix = "languages/" + lang + "/";
+        prefix = config["languages-path"] + lang + "/";
         runtime.setURLPrefix(prefix);
       }
       

@@ -8,6 +8,7 @@
     "build": "./build/",
     "resources": "./src/resources/"
   },
+  "languages-path": "lang/",
   "pages": {
     "index": {
       "title": "page-index",
